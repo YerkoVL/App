@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="account_balance">Saldo disponible</string>
+    <string name="balance_currency">S/.</string>
+    <string name="balance_amount">0.00</string>
+    <string name="token_app">pk.eyJ1IjoieWVya292ZXJhbGV6YW1hIiwiYSI6ImNpc25mYjE3bjA1MTcycG14YWNvaW04eHUifQ.WpUwec_XfCBz7psGHrBeAg</string>
+
+    <string name="facebook_app_id">384397321997956</string>
+    <string name="fb_login_protocol_scheme">fb384397321997956</string>
+
+    <string name="directions_activity_toast_message">Ruta esta a %1$f metros.</string>
+    <string name="geocode_activity_marker_options_title">Mi ubicación</string>
+    <string name="direction_to_go">¿Donde necesita la atención?</string>
+
+    <string name="fragment_pago_agregar_tarjeta">Agregar Tarjeta</string>
+
+    <string name="accion_completado">Completado</string>
+    <string name="accion_error">Error</string>
+    <string name="accion_error_desconocido">Error desconocido</string>
+
+    <string name="salir_app">¿Desea salir de la App?</string>
+    <string name="salir_informacion">Se procederá a cerrar y eliminar configuración general.</string>
+
+    <string name="cerrar_session">¿Desea salir de la App?</string>
+    <string name="cerrar_informacion">Se procederá a cerrar la sesión actual.</string>
+
+    <string name="falta_usuario">Ingrese usuario</string>
+    <string name="falta_password">Ingrese contraseña</string>
+    <string name="falta_nombres">Ingrese nombres</string>
+    <string name="falta_apellidos">Ingrese apellidos</string>
+    <string name="falta_correo">Ingrese correo</string>
+    <string name="falta_telefono">Ingrese telefono</string>
+</resources>
