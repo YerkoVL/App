@@ -27,9 +27,8 @@ public class implemPresentLogin implements presentadorLogin, interactorLogin.OnF
     @Override
     public void validarCredenciales(String usuario, String password) {
         if(loginVista != null){
-           loginVista.mostrarProgreso();
+            loginInteractor.loginLogeoUsuario(usuario,password,this);
         }
-        loginInteractor.loginLogeoUsuario(usuario,password,this);
     }
 
     @Override
@@ -40,16 +39,16 @@ public class implemPresentLogin implements presentadorLogin, interactorLogin.OnF
     @Override
     public void onErrorUsuario() {
         if(loginVista != null){
-            loginVista.setErrorUsuario();
             loginVista.ocultarProgreso();
+            loginVista.setErrorUsuario();
         }
     }
 
     @Override
     public void onErrorPassword() {
         if(loginVista != null){
-            loginVista.setErrorPassword();
             loginVista.ocultarProgreso();
+            loginVista.setErrorPassword();
         }
     }
 

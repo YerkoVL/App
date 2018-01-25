@@ -14,6 +14,10 @@
 
     <string name="fragment_pago_agregar_tarjeta">Agregar Tarjeta</string>
 
+    <!--GENERALES-->
+    <string name="error">Error</string>
+    <string name="errorInicio">Error al iniciar lógica</string>
+    <string name="salir">Salir</string>
     <string name="accion_completado">Completado</string>
     <string name="accion_error">Error</string>
     <string name="accion_error_desconocido">Error desconocido</string>
@@ -30,4 +34,14 @@
     <string name="falta_apellidos">Ingrese apellidos</string>
     <string name="falta_correo">Ingrese correo</string>
     <string name="falta_telefono">Ingrese telefono</string>
+
+    <!--PANTALLA REGISTRO DE USUARIO-->
+    <string name="regNombres">Nombres</string>
+    <string name="regApellidos">Apellidos</string>
+    <string name="regCorreo">Correo</string>
+    <string name="regCelular">Celular</string>
+    <string name="regPassword">Password</string>
+    <string name="regRepPassword">Repetir password</string>
+    <string name="regRegistrar">Registrar</string>
+    <string name="regCompleto">Registro completo</string>
 </resources>

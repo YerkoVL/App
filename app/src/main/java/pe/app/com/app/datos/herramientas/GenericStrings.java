@@ -25,4 +25,9 @@ public class GenericStrings {
 
     public static String LOGIN_PARAM_USUARIO = "username=";
     public static String LOGIN_PARAM_PASS = "password=";
+
+    public static int GENERAL_ESTADO_HABILITADO = 0;
+    public static int GENERAL_ESTADO_DESHABILITADO = 1;
+    public static int GENERAL_PERFIL_EMPLEADOS = 0;
+    public static int GENERAL_PERFIL_CLIENTES = 1;
 }

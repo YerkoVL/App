@@ -215,18 +215,18 @@ public class implemInteractLogin implements interactorLogin {
                                     loginVista.navegarAPantallaPrincipal();
                                 }else{
                                     Respuesta respuesta = gson.fromJson(Response,Respuesta.class);
-                                    loginVista.setAlerta("Error",respuesta.getMensaje());
                                     loginVista.ocultarProgreso();
+                                    loginVista.setAlerta("Error",respuesta.getMensaje());
                                 }
                             }catch (Exception e){
                                 e.printStackTrace();
-                                loginVista.setAlerta("Error","None");
                                 loginVista.ocultarProgreso();
+                                loginVista.setAlerta("Error","None");
                             }
                         }else{
                             Respuesta respuesta = gson.fromJson(Response,Respuesta.class);
-                            loginVista.setAlerta("Error",respuesta.getMensaje());
                             loginVista.ocultarProgreso();
+                            loginVista.setAlerta("Error",respuesta.getMensaje());
                         }
                     }
                 }, new Response.ErrorListener() {
@@ -239,7 +239,7 @@ public class implemInteractLogin implements interactorLogin {
         });
 
         respuestaLogin.setRetryPolicy(new DefaultRetryPolicy(
-                5000,
+                2000,
                 2,
                 DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
 
